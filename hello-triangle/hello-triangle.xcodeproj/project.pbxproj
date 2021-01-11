@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9959B81B25AC1A6A003D6EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959B81A25AC1A6A003D6EB8 /* AppDelegate.swift */; };
+		9959B81D25AC1A6A003D6EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959B81C25AC1A6A003D6EB8 /* ViewController.swift */; };
+		9959B81F25AC1A6B003D6EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9959B81E25AC1A6B003D6EB8 /* Assets.xcassets */; };
+		9959B82225AC1A6B003D6EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9959B82025AC1A6B003D6EB8 /* Main.storyboard */; };
+		9959B82D25AC1A86003D6EB8 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959B82C25AC1A86003D6EB8 /* Renderer.swift */; };
+		9959B83625AC1B12003D6EB8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9959B83525AC1B12003D6EB8 /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9959B81725AC1A6A003D6EB8 /* hello-triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959B81A25AC1A6A003D6EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9959B81C25AC1A6A003D6EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9959B81E25AC1A6B003D6EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9959B82125AC1A6B003D6EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9959B82325AC1A6B003D6EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9959B82425AC1A6B003D6EB8 /* hello_triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hello_triangle.entitlements; sourceTree = "<group>"; };
+		9959B82C25AC1A86003D6EB8 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		9959B82F25AC1AA1003D6EB8 /* hello-triangle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-triangle-Bridging-Header.h"; sourceTree = "<group>"; };
+		9959B83425AC1ABC003D6EB8 /* ShaderDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderDefinitions.h; sourceTree = "<group>"; };
+		9959B83525AC1B12003D6EB8 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9959B81425AC1A6A003D6EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9959B80E25AC1A6A003D6EB8 = {
+			isa = PBXGroup;
+			children = (
+				9959B81925AC1A6A003D6EB8 /* hello-triangle */,
+				9959B81825AC1A6A003D6EB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9959B81825AC1A6A003D6EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9959B81725AC1A6A003D6EB8 /* hello-triangle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9959B81925AC1A6A003D6EB8 /* hello-triangle */ = {
+			isa = PBXGroup;
+			children = (
+				9959B81E25AC1A6B003D6EB8 /* Assets.xcassets */,
+				9959B82325AC1A6B003D6EB8 /* Info.plist */,
+				9959B82025AC1A6B003D6EB8 /* Main.storyboard */,
+				9959B82425AC1A6B003D6EB8 /* hello_triangle.entitlements */,
+				9959B82F25AC1AA1003D6EB8 /* hello-triangle-Bridging-Header.h */,
+				9959B83425AC1ABC003D6EB8 /* ShaderDefinitions.h */,
+				9959B81A25AC1A6A003D6EB8 /* AppDelegate.swift */,
+				9959B81C25AC1A6A003D6EB8 /* ViewController.swift */,
+				9959B82C25AC1A86003D6EB8 /* Renderer.swift */,
+				9959B83525AC1B12003D6EB8 /* Shaders.metal */,
+			);
+			path = "hello-triangle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9959B81625AC1A6A003D6EB8 /* hello-triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9959B82725AC1A6B003D6EB8 /* Build configuration list for PBXNativeTarget "hello-triangle" */;
+			buildPhases = (
+				9959B81325AC1A6A003D6EB8 /* Sources */,
+				9959B81425AC1A6A003D6EB8 /* Frameworks */,
+				9959B81525AC1A6A003D6EB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-triangle";
+			productName = "hello-triangle";
+			productReference = 9959B81725AC1A6A003D6EB8 /* hello-triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9959B80F25AC1A6A003D6EB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9959B81625AC1A6A003D6EB8 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 9959B81225AC1A6A003D6EB8 /* Build configuration list for PBXProject "hello-triangle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9959B80E25AC1A6A003D6EB8;
+			productRefGroup = 9959B81825AC1A6A003D6EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9959B81625AC1A6A003D6EB8 /* hello-triangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9959B81525AC1A6A003D6EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959B81F25AC1A6B003D6EB8 /* Assets.xcassets in Resources */,
+				9959B82225AC1A6B003D6EB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9959B81325AC1A6A003D6EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959B83625AC1B12003D6EB8 /* Shaders.metal in Sources */,
+				9959B81D25AC1A6A003D6EB8 /* ViewController.swift in Sources */,
+				9959B82D25AC1A86003D6EB8 /* Renderer.swift in Sources */,
+				9959B81B25AC1A6A003D6EB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9959B82025AC1A6B003D6EB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9959B82125AC1A6B003D6EB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9959B82525AC1A6B003D6EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9959B82625AC1A6B003D6EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9959B82825AC1A6B003D6EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "hello-triangle/hello_triangle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-triangle/hello-triangle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9959B82925AC1A6B003D6EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "hello-triangle/hello_triangle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hello-triangle/hello-triangle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9959B81225AC1A6A003D6EB8 /* Build configuration list for PBXProject "hello-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B82525AC1A6B003D6EB8 /* Debug */,
+				9959B82625AC1A6B003D6EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9959B82725AC1A6B003D6EB8 /* Build configuration list for PBXNativeTarget "hello-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B82825AC1A6B003D6EB8 /* Debug */,
+				9959B82925AC1A6B003D6EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9959B80F25AC1A6A003D6EB8 /* Project object */;
+}
