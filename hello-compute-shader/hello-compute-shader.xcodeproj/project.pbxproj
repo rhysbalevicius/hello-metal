@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FB674D25BD219F00A7692B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB674C25BD219F00A7692B /* AppDelegate.swift */; };
+		99FB674F25BD219F00A7692B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB674E25BD219F00A7692B /* ViewController.swift */; };
+		99FB675125BD21A000A7692B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FB675025BD21A000A7692B /* Assets.xcassets */; };
+		99FB675425BD21A000A7692B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FB675225BD21A000A7692B /* Main.storyboard */; };
+		99FB675E25BD254D00A7692B /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB675D25BD254D00A7692B /* Renderer.swift */; };
+		99FB676225BD25B700A7692B /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 99FB676125BD25B700A7692B /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99FB674925BD219F00A7692B /* hello-compute-shader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-compute-shader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FB674C25BD219F00A7692B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99FB674E25BD219F00A7692B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99FB675025BD21A000A7692B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FB675325BD21A000A7692B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99FB675525BD21A000A7692B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FB675625BD21A000A7692B /* hello_compute_shader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hello_compute_shader.entitlements; sourceTree = "<group>"; };
+		99FB675D25BD254D00A7692B /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		99FB676125BD25B700A7692B /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FB674625BD219F00A7692B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FB674025BD219F00A7692B = {
+			isa = PBXGroup;
+			children = (
+				99FB674B25BD219F00A7692B /* hello-compute-shader */,
+				99FB674A25BD219F00A7692B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FB674A25BD219F00A7692B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FB674925BD219F00A7692B /* hello-compute-shader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FB674B25BD219F00A7692B /* hello-compute-shader */ = {
+			isa = PBXGroup;
+			children = (
+				99FB675025BD21A000A7692B /* Assets.xcassets */,
+				99FB675525BD21A000A7692B /* Info.plist */,
+				99FB675225BD21A000A7692B /* Main.storyboard */,
+				99FB675625BD21A000A7692B /* hello_compute_shader.entitlements */,
+				99FB674C25BD219F00A7692B /* AppDelegate.swift */,
+				99FB674E25BD219F00A7692B /* ViewController.swift */,
+				99FB675D25BD254D00A7692B /* Renderer.swift */,
+				99FB676125BD25B700A7692B /* Shaders.metal */,
+			);
+			path = "hello-compute-shader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FB674825BD219F00A7692B /* hello-compute-shader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FB675925BD21A000A7692B /* Build configuration list for PBXNativeTarget "hello-compute-shader" */;
+			buildPhases = (
+				99FB674525BD219F00A7692B /* Sources */,
+				99FB674625BD219F00A7692B /* Frameworks */,
+				99FB674725BD219F00A7692B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-compute-shader";
+			productName = "hello-compute-shader";
+			productReference = 99FB674925BD219F00A7692B /* hello-compute-shader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FB674125BD219F00A7692B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					99FB674825BD219F00A7692B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 99FB674425BD219F00A7692B /* Build configuration list for PBXProject "hello-compute-shader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FB674025BD219F00A7692B;
+			productRefGroup = 99FB674A25BD219F00A7692B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FB674825BD219F00A7692B /* hello-compute-shader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FB674725BD219F00A7692B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB675125BD21A000A7692B /* Assets.xcassets in Resources */,
+				99FB675425BD21A000A7692B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FB674525BD219F00A7692B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FB676225BD25B700A7692B /* Shaders.metal in Sources */,
+				99FB674F25BD219F00A7692B /* ViewController.swift in Sources */,
+				99FB675E25BD254D00A7692B /* Renderer.swift in Sources */,
+				99FB674D25BD219F00A7692B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99FB675225BD21A000A7692B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99FB675325BD21A000A7692B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99FB675725BD21A000A7692B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99FB675825BD21A000A7692B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		99FB675A25BD21A000A7692B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-compute-shader/hello_compute_shader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-compute-shader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-compute-shader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99FB675B25BD21A000A7692B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-compute-shader/hello_compute_shader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-compute-shader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-compute-shader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FB674425BD219F00A7692B /* Build configuration list for PBXProject "hello-compute-shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB675725BD21A000A7692B /* Debug */,
+				99FB675825BD21A000A7692B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FB675925BD21A000A7692B /* Build configuration list for PBXNativeTarget "hello-compute-shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB675A25BD21A000A7692B /* Debug */,
+				99FB675B25BD21A000A7692B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FB674125BD219F00A7692B /* Project object */;
+}
