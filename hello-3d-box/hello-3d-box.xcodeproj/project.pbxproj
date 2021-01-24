@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F0B72F25BD19CD000FAFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F0B72E25BD19CD000FAFDE /* AppDelegate.swift */; };
+		99F0B73125BD19CD000FAFDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F0B73025BD19CD000FAFDE /* ViewController.swift */; };
+		99F0B73325BD19CF000FAFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F0B73225BD19CF000FAFDE /* Assets.xcassets */; };
+		99F0B73625BD19CF000FAFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F0B73425BD19CF000FAFDE /* Main.storyboard */; };
+		99FB673525BD1A2500A7692B /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB673425BD1A2500A7692B /* Renderer.swift */; };
+		99FB673925BD1A4800A7692B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB673825BD1A4800A7692B /* Utilities.swift */; };
+		99FB673C25BD1A6B00A7692B /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 99FB673B25BD1A6B00A7692B /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99F0B72B25BD19CD000FAFDE /* hello-3d-box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-3d-box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F0B72E25BD19CD000FAFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99F0B73025BD19CD000FAFDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99F0B73225BD19CF000FAFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F0B73525BD19CF000FAFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99F0B73725BD19CF000FAFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F0B73825BD19CF000FAFDE /* hello_3d_box.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hello_3d_box.entitlements; sourceTree = "<group>"; };
+		99FB673425BD1A2500A7692B /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		99FB673825BD1A4800A7692B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		99FB673B25BD1A6B00A7692B /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F0B72825BD19CD000FAFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F0B72225BD19CD000FAFDE = {
+			isa = PBXGroup;
+			children = (
+				99F0B72D25BD19CD000FAFDE /* hello-3d-box */,
+				99F0B72C25BD19CD000FAFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F0B72C25BD19CD000FAFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F0B72B25BD19CD000FAFDE /* hello-3d-box.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F0B72D25BD19CD000FAFDE /* hello-3d-box */ = {
+			isa = PBXGroup;
+			children = (
+				99F0B73225BD19CF000FAFDE /* Assets.xcassets */,
+				99F0B73725BD19CF000FAFDE /* Info.plist */,
+				99F0B73425BD19CF000FAFDE /* Main.storyboard */,
+				99F0B73825BD19CF000FAFDE /* hello_3d_box.entitlements */,
+				99F0B72E25BD19CD000FAFDE /* AppDelegate.swift */,
+				99F0B73025BD19CD000FAFDE /* ViewController.swift */,
+				99FB673425BD1A2500A7692B /* Renderer.swift */,
+				99FB673825BD1A4800A7692B /* Utilities.swift */,
+				99FB673B25BD1A6B00A7692B /* Shaders.metal */,
+			);
+			path = "hello-3d-box";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F0B72A25BD19CD000FAFDE /* hello-3d-box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F0B73B25BD19CF000FAFDE /* Build configuration list for PBXNativeTarget "hello-3d-box" */;
+			buildPhases = (
+				99F0B72725BD19CD000FAFDE /* Sources */,
+				99F0B72825BD19CD000FAFDE /* Frameworks */,
+				99F0B72925BD19CD000FAFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-3d-box";
+			productName = "hello-3d-box";
+			productReference = 99F0B72B25BD19CD000FAFDE /* hello-3d-box.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F0B72325BD19CD000FAFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					99F0B72A25BD19CD000FAFDE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 99F0B72625BD19CD000FAFDE /* Build configuration list for PBXProject "hello-3d-box" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F0B72225BD19CD000FAFDE;
+			productRefGroup = 99F0B72C25BD19CD000FAFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F0B72A25BD19CD000FAFDE /* hello-3d-box */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F0B72925BD19CD000FAFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F0B73325BD19CF000FAFDE /* Assets.xcassets in Resources */,
+				99F0B73625BD19CF000FAFDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F0B72725BD19CD000FAFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F0B73125BD19CD000FAFDE /* ViewController.swift in Sources */,
+				99FB673525BD1A2500A7692B /* Renderer.swift in Sources */,
+				99FB673925BD1A4800A7692B /* Utilities.swift in Sources */,
+				99F0B72F25BD19CD000FAFDE /* AppDelegate.swift in Sources */,
+				99FB673C25BD1A6B00A7692B /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99F0B73425BD19CF000FAFDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F0B73525BD19CF000FAFDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F0B73925BD19CF000FAFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F0B73A25BD19CF000FAFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		99F0B73C25BD19CF000FAFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-3d-box/hello_3d_box.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-3d-box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-3d-box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99F0B73D25BD19CF000FAFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hello-3d-box/hello_3d_box.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hello-3d-box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.null.hello-3d-box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F0B72625BD19CD000FAFDE /* Build configuration list for PBXProject "hello-3d-box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F0B73925BD19CF000FAFDE /* Debug */,
+				99F0B73A25BD19CF000FAFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F0B73B25BD19CF000FAFDE /* Build configuration list for PBXNativeTarget "hello-3d-box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F0B73C25BD19CF000FAFDE /* Debug */,
+				99F0B73D25BD19CF000FAFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F0B72325BD19CD000FAFDE /* Project object */;
+}
